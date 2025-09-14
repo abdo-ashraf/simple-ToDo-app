@@ -1,0 +1,46 @@
+GPT generated; full chat @https://chatgpt.com/share/68c729fe-eb94-8008-bbdb-20c53086d794
+
+
+You are building a **Minimal To-Do App MVP**.
+
+### Tech Stack:
+
+* **Frontend:** React.js (Next.js) + Tailwind UI
+* **State Management:** React hooks (local state, no backend for MVP)
+* **Persistence:** LocalStorage (so tasks remain after refresh)
+* **Optional (not MVP):** Node.js/Express backend
+
+### Requirements:
+
+1. **Core Features (MVP):**
+
+   * Add, edit, and delete tasks.
+   * Mark tasks as complete or incomplete.
+   * Organize tasks by categories: **Work, Personal, Health**.
+   * Minimal dashboard view showing all tasks.
+
+2. **UI/UX Patterns:**
+
+   * Clean, minimal design using Tailwind UI.
+   * Task list should be card-based with checkboxes for completion.
+   * Color-coded or labeled categories (Work = Blue, Personal = Green, Health = Red).
+   * Floating “+” button (bottom right) for adding tasks.
+   * Inline editing (click task text to edit).
+
+3. **State Management:**
+
+   * Use React hooks for managing tasks.
+   * Store tasks in LocalStorage so they persist after refresh.
+
+4. **Nice-to-Have Enhancements (optional for now):**
+
+   * Filter/sort tasks by category or completion status.
+   * Light/Dark mode toggle.
+
+### Deliverables:
+
+* A **Next.js project** scaffolded with TailwindCSS.
+* A **dashboard page** (`/`) that lists all tasks.
+* A **task component** with title, category, and status toggle.
+* An **add task modal/form** triggered by “+” button.
+* **LocalStorage integration** to save/load tasks.

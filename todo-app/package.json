@@ -1,0 +1,49 @@
+{
+  "name": "minimal-todo-app",
+  "version": "1.0.0",
+  "description": "A modern, responsive task management application built with Next.js and Tailwind CSS",
+  "private": true,
+  "keywords": [
+    "todo",
+    "task-management",
+    "nextjs",
+    "tailwindcss",
+    "typescript",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/minimal-todo-app#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/minimal-todo-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/minimal-todo-app/issues"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next out"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "@eslint/eslintrc": "^3"
+  }
+}
